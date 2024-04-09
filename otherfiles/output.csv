@@ -1,0 +1,25 @@
+course: CS1400
+maximum:100
+minimum:25
+mean; 65.66666666666667
+sorted grades:[25, 45, 48, 78, 98, 100]
+course: CS1410
+maximum:98
+minimum:36
+mean; 74.5
+sorted grades:[36, 56, 65, 95, 97, 98]
+course: CS2550
+maximum:92
+minimum:45
+mean; 63.5
+sorted grades:[45, 45, 56, 65, 78, 92]
+course: CS3210
+maximum:96
+minimum:36
+mean; 69.5
+sorted grades:[36, 45, 67, 86, 87, 96]
+course: CS3410
+maximum:95
+minimum:45
+mean; 79.16666666666667
+sorted grades:[45, 78, 85, 86, 86, 95]

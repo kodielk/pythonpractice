@@ -35,11 +35,8 @@ def main ():
     try:
         choice = int(input("Enter your choice (1/2/3/4/5): "))
         #put other inputs here- the numbers
-        if choice ==5: 
-            break
-        else:
-            operand1 = float(input('Enter the first number:'))
-            operand2 = float(input('Enter the second number:'))
+        operand1 = float(input('Enter the first number:'))
+        operand2 = float(input('Enter the second number:'))
         #processing
         if choice == 1:
             operation='addition'
@@ -64,10 +61,5 @@ def main ():
 
     #output
     print(f"Result of {operation}: {operand1}{opsign}{operand2}={res}")
-
-while True:
-    yesNo = input('Do you want to perform another another calcuation? (yes/no)')
-    if yesNo =='no':
-        break
 if __name__ == "__main__":
     main()
